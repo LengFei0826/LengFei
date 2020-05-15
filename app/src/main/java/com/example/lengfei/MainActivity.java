@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
         TextView txv = (TextView) findViewById(R.id.txv);
         txv.setText("Hello tcyang");
-        TestMaster();
-        TestDev();
+        txv.setText("嗨，我是何映龍");
+       // TestMaster();
+        //TestDev();
     }
 
     public void TestDev(){
